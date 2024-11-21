@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		body{
+			background-color: #2E86C1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 20px;
+		}
+		.left-panel{
+			width: 330px;
+			height: 1150px;
+			display: flex;
+			flex-direction: column;
+		}
+		.right-panel{
+			width: 540px;
+			height: 1150px;
+			display: flex;
+			display: flex;
+			flex-direction: column;
+		}
+		.photo-panel{
+			height: 50%;
+			background-size: cover;
+			background-position: top-aligned;
+			background-image: url('yanson.jpg');
+		}
+		.text-content{
+			align-items: center;
+			margin-top: 20px;
+		}
+		.text-content h2{
+			margin: 0 0 10px;
+            padding-bottom: 10px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #0078d7; 
+            color: #333;
+		}
+		.timeline{
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		.timeline-item{
+			display: flex;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+		.year{
+			font-weight: bolder;
+			margin-right: 20px;
+			text-align: center;
+			width: 100px;
+			font-size: 1.2em;
+		}
+		.description{
+			font-size: 1em;
+		}
+		.linkNoUnderline{
+			text-decoration: none;
+			font-size: 1em;
+		}
+		.favorite-music {
+	    display: flex;
+	    	justify-content: space-around; 
+	    	align-items: flex-start; 
+	    	flex-wrap: wrap; 
+	    	gap: 15px; 
+		}
+		.music-item {
+	    flex: 0 1 calc(25% - 20px);
+	    text-align: center;
+	    max-width: 150px;
+		}
+		.note{
+			font-size: 0.3em;
+			text-align: left;
+		}
+
+	</style>
+
+	<title></title>
+</head>
+<body>
+	<div class="body">
+		<div class="left-panel">
+			<img src="yanson.jpg" class="photo-panel" alt="personal photo">
+			<div>
+				<h1>ABOUT ME</h1>
+			</div>
+			<div class="text-content">
+				<div>
+					I am a freshman in the Department of Management Information Systems at National Chengchi University. I am very interested in studying programming and computer science fundamentals. I have experience in writing Java, HTML, CSS, JavaScript, and Python. 
+				</div>
+				<div>
+					<h1>CONTACT</h1>
+				</div>
+				<div>
+					113306029@g.nccu.edu.tw
+				</div>
+				<img src="nccu.jpg" alt="nccu icon" width="100%">
+			</div>
+		</div>
+	</div>
+	<div class="body">
+		<div class="right-panel">
+			<section class="text-content">
+				<h2>Education</h2>
+				<ul class="timeline">
+					<li class="timeline-item">
+						<span class="year">2024 - now</span>
+						<span class="descrription">National Chengchi University, department of MIS
+						Computer Science</span>
+					</li>
+					<li class="timeline-item">
+						<span class="year">2020 - 2024</span>
+						<span class="descrription">Taipei Municipal Cheng Gong High School
+						Participated in Cheng Gong Music Creation Club</span>
+					</li>
+					<li class="timeline-item">
+						<span class="year">2017 - 2020</span>
+						<span class="descrription">Middle School Graduation
+						Started developing an interest in computer science</span>
+					</li>
+				</ul>
+			</section>
+			<section class="text-content">
+				<h2>Homework List</h2>
+				<ul class="timeline">
+					<li class="timeline-item">
+						<span class="year">HW1</span>
+						<span><a href="https://github.com/Yanorak1/HW1.git"class="linkNoUnderline">https://github.com/Yanorak1/HW1.git</a></span>
+					</li>
+					<li class="timeline-item">
+						<span class="year">HW2</span>
+						<span><a href="https://github.com/Yanorak1/HW2.git" class="linkNoUnderline">https://github.com/Yanorak1/HW2.git</a></span>
+					</li>
+					<li class="timeline-item">
+						<span class="year">HW3</span>
+						<span><a href="https://github.com/Yanorak1/HW3.git" class="linkNoUnderline">https://github.com/Yanorak1/HW3.git</a></span>
+					</li>
+				</ul>
+			</section>
+			<section class="text-content">
+				<h2>Favorite Music</h2>
+				 	<div class="favorite-music">
+				 		<div class="music-item">
+							<a href="https://youtu.be/3aatEBIZHNU?si=4DKfOmqyo_5zV9up" class="music-images">
+							<img src="music.jpg" width="50" height="50" alt = music image>
+							</a>
+							<p>Rock 'n' Roll Star</p>
+						</div>
+						<div class="music-item">
+							<a href="https://youtu.be/TvnYmWpD_T8?si=0q6m3ZJsp53MkH51" class="music-images">
+							<img src="music.jpg" width="50" height="50" alt = music image>
+							</a>
+							<p>Purple Rain</p>
+						</div>
+						<div class="music-item">
+							<a href="https://youtu.be/xHltM-Py4uM?si=1XBOSvJC0zJTdTTP" class="music-images">
+								<img src="music.jpg" width="50" height="50" alt = music image>
+							</a>
+							<p>Dangerous</p>
+						</div>
+							<div class="music-item">
+							<a href="https://youtu.be/NYdl3-PxEhQ?si=qKCive3k3fFe6xlv" class="music-images">
+								<img src="music.jpg" width="50" height="50" alt = music image>
+							</a>
+							<p>夏夜晚風</p>
+						</div>
+			</section>
+			<div class="note">Note: the songs' melody are good and i love their voices</div>
+		</div>
+	</div>
+</body>
+</html>
